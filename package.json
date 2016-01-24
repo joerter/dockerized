@@ -1,0 +1,23 @@
+{
+  "name": "dockerized",
+  "version": "1.0.0",
+  "description": "Example of developing, testing, and deploying with Docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joerter/dockerized.git"
+  },
+  "author": "John Oerter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joerter/dockerized/issues"
+  },
+  "homepage": "https://github.com/joerter/dockerized#readme",
+  "devDependencies": {
+    "supervisor": "^0.9.1"
+  }
+}

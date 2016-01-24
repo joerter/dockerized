@@ -4,7 +4,7 @@ const port = 3000;
 
 http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Dockerized!\n');
+  res.end('Dockerized Reloaded!\n');
 }).listen(port, () => {
   console.log(`Server running at http://0.0.0.0:${port}/`);
 });
